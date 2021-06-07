@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner input = new Scanner(System.in);
+	    int num = 1;
+	    int nextNum;
+	    System.out.println(num);
+	    while(true) {
+	        nextNum = input.nextInt();
+	        num = nextNum;
+	        if(num == 0)
+	            break;
+	    }
+	}
+}
